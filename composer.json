@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/firebase-php-jwt",
+    "description": "Tyhp type definitions for firebase/php-jwt 7.1.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "7.1.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/firebase-php-jwt-impl": "~7.1.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/firebase-php-jwt-impl"
+        }
+    }
+}
